@@ -1,0 +1,94 @@
+.skills-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.skills-exp-box{
+    position: relative;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    padding: 8px 20px;
+    background-color: rgba(26, 20, 67, 1);
+    border-radius: 6px;
+}
+.line-left{
+    display: flex;
+    position: absolute;
+    left: -90px;
+    bottom: 50%;
+    width: 90px;
+    height: 2px;
+    background-color: rgba(26, 20, 67, 1);
+}
+.line-right{
+    display: flex;
+    position: absolute;
+    right: -90px;
+    bottom: 50%;
+    width: 90px;
+    height: 2px;
+    background-color: rgba(26, 20, 67, 1);
+}
+.slider{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+.slider .list{
+    display: flex;
+    width: 100%;
+    min-width: calc(var(--width) * var(--quantity));
+    position: relative;
+    padding: 20px;
+}
+.slider .list .item{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    height: 140px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(37, 33, 59, 1);
+    position: absolute;
+    left: 100%;
+    animation: autoRun 10s linear infinite;
+    animation-delay: calc( (10s / var(--quantity)) * (var(--position) - 1 ) );
+    transition: transform 0.5s ease;
+    z-index: 1;
+
+}
+.slider .list .item span{
+    font-size: 18px;
+    line-height: 28px;
+    color: white;
+}
+
+.slider .list .item img{
+    width: 40px;
+    height: 40px;
+}
+@keyframes autoRun{
+    from{
+        left: 100%;
+    }to{
+        left: calc(var(--width) * -1);
+    }
+}
+.slider:hover .item{
+    animation-play-state: paused!important;
+}
+.list .item:hover{
+    cursor: pointer;
+    border: 2px solid rgba(120, 78, 207, 1);
+    transform: scale(1.2);
+}

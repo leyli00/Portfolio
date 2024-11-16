@@ -1,7 +1,7 @@
 .experiences{
     margin-top: 48px;
     margin-bottom: 48px;
-    border-top: 1px solid rgb(37, 33, 59, 1);
+    border-top: 1px solid rgba(37, 33, 59, 1);
     background: linear-gradient(190deg,rgba(0, 0, 0, 0) 10%, rgb(15, 7, 43) 50%, rgba(0, 0, 0, 0) 100%);
 }
 .center-containers{
