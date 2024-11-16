@@ -1,0 +1,57 @@
+.card{
+    height: 481px;
+    width: 664px;
+    border: 1px solid #152155;
+    border-radius: 8px;
+    background: linear-gradient(90deg, rgba(13, 18, 36, 1) 0%, rgba(10, 13, 55, 1) 100%);
+}
+.gradient-top-border{
+    height: 1.5px;
+    background: linear-gradient(90deg,rgb(0, 0, 0, 0) 0%, rgba(236, 72, 153, 1) 20%, rgba(124, 58, 237 ,1) 60%, rgb(0, 0, 0, 0) 100%)
+}
+.colorful-dots{
+    display: flex;
+    gap: 8px;
+    padding: 20px 32px;
+    border-bottom: 2px solid #312E81;
+}
+.pink-dot{
+    height: 12px;
+    width: 12px;
+    background: #F87171;
+    border-radius: 6px;
+}
+.orange-dot{
+    height: 12px;
+    width: 12px;
+    background: #FB923C;
+    border-radius: 6px;
+}
+.grey-dot{
+    height: 12px;
+    width: 12px;
+    background: #BBF7D0;
+    border-radius: 6px;
+}
+.card-text{
+    margin: 32px;
+    height: 361px;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 1px;
+}
+.white{
+    color: white;
+}
+.grey{
+    color: #979AA6;
+}
+.yellow{
+    color: #FCD34D;
+}
+.orange{
+    color: #FB903A;
+}
+.blue{
+    color: #22D3EE;
+}

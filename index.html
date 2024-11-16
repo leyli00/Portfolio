@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="about-me.css">
     <link rel="stylesheet" href="experiences.css">
     <link rel="stylesheet" href="skills.css">
+    <link rel="stylesheet" href="sticky-card.css">
+    <link rel="stylesheet" href="projects.css">
+
 </head>
 <body>
     <div class="container">
@@ -61,16 +64,18 @@
                 </div>
 
                 <div class="self-intro-right">
-                    <div class="gradient-top-border"></div>
-                    <div class="colorful-dots">
-                        <div class="pink-dot"></div>
-                        <div class="orange-dot"></div>
-                        <div class="grey-dot"></div>
+                    <div class="card">
+                        <div class="gradient-top-border"></div>
+                        <div class="colorful-dots">
+                            <div class="pink-dot"></div>
+                            <div class="orange-dot"></div>
+                            <div class="grey-dot"></div>
+                        </div>
+                        <div class="card-text">
+                            <p><span class="const" style="color: rgb(236 72 153);">const</span> <span class="white">coder</span> <span class="equal" style="color: rgb(236 72 153);"> =</span> <span class="grey"> { </span> <br> <span class="white" style="margin-left: 40px;">name:</span> <span class="grey" >'</span> <span class="yellow"> Leyli</span> <span class="grey">' ,</span> <br> <span class="white" style="margin-left: 40px;">skills:</span> <span class="grey">[ '</span> <span class="yellow">React</span> <span class="grey">' , '</span> <span class="yellow">NextJS</span> <span class="grey">' , '</span> <span class="yellow">Redux</span> <span class="grey">' , '</span> <span class="yellow">Express</span> <span class="grey">' , '</span> <span class="yellow">NestJS</span> <span class="grey">' ,</span> <br> <span class="grey" style="margin-left: 40px;">'</span> <span class="yellow">MySql</span> <span class="grey">' , '</span> <span class="yellow">MongoDB</span> <span class="grey">' , '</span> <span class="yellow">Docker</span> <span class="grey">' , '</span> <span class="yellow">AWS</span> <span class="grey">' ] ,</span> <br> <span class="white" style="margin-left: 40px;">hardWorker: </span> <span class="orange"> true</span> <span class="grey"> , </span> <br> <span class="white" style="margin-left: 40px;">quickLearner: </span> <span class="orange"> true</span> <span class="grey"> , </span> <br> <span class="white" style="margin-left: 40px;">problemSolver: </span> <span class="orange"> true</span> <span class="grey"> , </span> <br> <span class="green" style="color: #4ADE80; margin-left: 40px;" >hireable: </span> <span class="orange"> function </span> <span class="grey"> () { </span> <br> <span class="orange" style="margin-left: 70px;">return </span> <span class="grey"> ( </span> <br> <span class="blue" style="margin-left: 100px;"> this.</span> <span class="white">hardWrorker </span> <span class="yellow">&&</span> <br> <span class="blue" style="margin-left: 100px;"> this.</span> <span class="white">problemSolwer </span> <span class="yellow">&&</span> <br> <span class="blue" style="margin-left: 100px;"> this.</span> <span class="white">skills.length </span> <span class="yellow"> >= </span> <span class="orange">5</span> <br> <span class="grey" style="margin-left: 70px;">) ;</span> <br> <span class="grey" style="margin-left: 40px;">} ;</span> <br> <span class="grey">};</span></p>
+                        </div>
                     </div>
-
-                    <div class="self-intro-right-text">
-                        <p><span class="const" style="color: rgb(236 72 153);">const</span> <span class="white">coder</span> <span class="equal" style="color: rgb(236 72 153);"> =</span> <span class="grey"> { </span> <br> <span class="white" style="margin-left: 40px;">name:</span> <span class="grey" >'</span> <span class="yellow"> Leyli</span> <span class="grey">' ,</span> <br> <span class="white" style="margin-left: 40px;">skills:</span> <span class="grey">[ '</span> <span class="yellow">React</span> <span class="grey">' , '</span> <span class="yellow">NextJS</span> <span class="grey">' , '</span> <span class="yellow">Redux</span> <span class="grey">' , '</span> <span class="yellow">Express</span> <span class="grey">' , '</span> <span class="yellow">NestJS</span> <span class="grey">' ,</span> <br> <span class="grey" style="margin-left: 40px;">'</span> <span class="yellow">MySql</span> <span class="grey">' , '</span> <span class="yellow">MongoDB</span> <span class="grey">' , '</span> <span class="yellow">Docker</span> <span class="grey">' , '</span> <span class="yellow">AWS</span> <span class="grey">' ] ,</span> <br> <span class="white" style="margin-left: 40px;">hardWorker: </span> <span class="orange"> true</span> <span class="grey"> , </span> <br> <span class="white" style="margin-left: 40px;">quickLearner: </span> <span class="orange"> true</span> <span class="grey"> , </span> <br> <span class="white" style="margin-left: 40px;">problemSolver: </span> <span class="orange"> true</span> <span class="grey"> , </span> <br> <span class="green" style="color: #4ADE80; margin-left: 40px;" >hireable: </span> <span class="orange"> function </span> <span class="grey"> () { </span> <br> <span class="orange" style="margin-left: 70px;">return </span> <span class="grey"> ( </span> <br> <span class="blue" style="margin-left: 100px;"> this.</span> <span class="white">hardWrorker </span> <span class="yellow">&&</span> <br> <span class="blue" style="margin-left: 100px;"> this.</span> <span class="white">problemSolwer </span> <span class="yellow">&&</span> <br> <span class="blue" style="margin-left: 100px;"> this.</span> <span class="white">skills.length </span> <span class="yellow"> >= </span> <span class="orange">5</span> <br> <span class="grey" style="margin-left: 70px;">) ;</span> <br> <span class="grey" style="margin-left: 40px;">} ;</span> <br> <span class="grey">};</span></p>
-                    </div>
+                        
                 </div>
             </div>
 
@@ -168,28 +173,6 @@
                     </div>
                 </div>
 
-                <!-- <div class="carousel">
-                    <div class="carousel-main">
-                        <div class="carousel-div1">
-                            <div class="carousel-img">
-                                <img src="images/html-img.svg">
-                            </div>
-                            <div class="carousel-span">
-                                <span class="html">HTML</span>
-                            </div>
-                        </div>
-                        <div class="carousel-div2">
-                            <div class="carousel-img">
-                                <img src="images/css-img.svg">
-                            </div>
-                            <div class="carousel-span">
-                                <span class="css">CSS</span>
-                            </div>                        </div>
-                        <div class="carousel-div3"></div>
-                    </div>
-                </div> -->
-
-
                 <div class="slider" style="
                     --width: 180px;
                     --height: 40px;
@@ -208,6 +191,63 @@
                             <div class="item" style="--position: 8"><img src="images/tailwind-img.svg" alt=""> <span class="title">Tailwind</span></div>
                             <div class="item" style="--position: 9"><img src="images/react-img.svg" alt=""> <span class="title">React</span></div>
                         
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="projects">
+                <div class="project-heading">
+                    <div class="project-heading-box">
+                        PROJECTS
+                        <span class="project-heading-box-line-right"></span>
+                    </div>
+                </div>
+
+                <div class="cards">
+                    <div class="card">
+                        <div class="gradient-top-border"></div>
+                        <div class="colorful-dots">
+                            <div class="pink-dot"></div>
+                            <div class="orange-dot"></div>
+                            <div class="grey-dot"></div>
+                        </div>
+                        <div class="card-text">
+                            <p><span class="const" style="color: rgb(236 72 153);">const</span> <span class="white">coder</span> <span class="equal" style="color: rgb(236 72 153);"> =</span> <span class="grey"> { </span> <br> <span class="white" style="margin-left: 40px;">name:</span> <span class="grey" >'</span> <span class="yellow"> Leyli</span> <span class="grey">' ,</span> <br> <span class="white" style="margin-left: 40px;">skills:</span> <span class="grey">[ '</span> <span class="yellow">React</span> <span class="grey">' , '</span> <span class="yellow">NextJS</span> <span class="grey">' , '</span> <span class="yellow">Redux</span> <span class="grey">' , '</span> <span class="yellow">Express</span> <span class="grey">' , '</span> <span class="yellow">NestJS</span> <span class="grey">' ,</span> <br> <span class="grey" style="margin-left: 40px;">'</span> <span class="yellow">MySql</span> <span class="grey">' , '</span> <span class="yellow">MongoDB</span> <span class="grey">' , '</span> <span class="yellow">Docker</span> <span class="grey">' , '</span> <span class="yellow">AWS</span> <span class="grey">' ] ,</span> <br> <span class="white" style="margin-left: 40px;">hardWorker: </span> <span class="orange"> true</span> <span class="grey"> , </span> <br> <span class="white" style="margin-left: 40px;">quickLearner: </span> <span class="orange"> true</span> <span class="grey"> , </span> <br> <span class="white" style="margin-left: 40px;">problemSolver: </span> <span class="orange"> true</span> <span class="grey"> , </span> <br> <span class="green" style="color: #4ADE80; margin-left: 40px;" >hireable: </span> <span class="orange"> function </span> <span class="grey"> () { </span> <br> <span class="orange" style="margin-left: 70px;">return </span> <span class="grey"> ( </span> <br> <span class="blue" style="margin-left: 100px;"> this.</span> <span class="white">hardWrorker </span> <span class="yellow">&&</span> <br> <span class="blue" style="margin-left: 100px;"> this.</span> <span class="white">problemSolwer </span> <span class="yellow">&&</span> <br> <span class="blue" style="margin-left: 100px;"> this.</span> <span class="white">skills.length </span> <span class="yellow"> >= </span> <span class="orange">5</span> <br> <span class="grey" style="margin-left: 70px;">) ;</span> <br> <span class="grey" style="margin-left: 40px;">} ;</span> <br> <span class="grey">};</span></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="gradient-top-border"></div>
+                        <div class="colorful-dots">
+                            <div class="pink-dot"></div>
+                            <div class="orange-dot"></div>
+                            <div class="grey-dot"></div>
+                        </div>
+                        <div class="card-text">
+                            <p><span class="const" style="color: rgb(236 72 153);">const</span> <span class="white">coder</span> <span class="equal" style="color: rgb(236 72 153);"> =</span> <span class="grey"> { </span> <br> <span class="white" style="margin-left: 40px;">name:</span> <span class="grey" >'</span> <span class="yellow"> Leyli</span> <span class="grey">' ,</span> <br> <span class="white" style="margin-left: 40px;">skills:</span> <span class="grey">[ '</span> <span class="yellow">React</span> <span class="grey">' , '</span> <span class="yellow">NextJS</span> <span class="grey">' , '</span> <span class="yellow">Redux</span> <span class="grey">' , '</span> <span class="yellow">Express</span> <span class="grey">' , '</span> <span class="yellow">NestJS</span> <span class="grey">' ,</span> <br> <span class="grey" style="margin-left: 40px;">'</span> <span class="yellow">MySql</span> <span class="grey">' , '</span> <span class="yellow">MongoDB</span> <span class="grey">' , '</span> <span class="yellow">Docker</span> <span class="grey">' , '</span> <span class="yellow">AWS</span> <span class="grey">' ] ,</span> <br> <span class="white" style="margin-left: 40px;">hardWorker: </span> <span class="orange"> true</span> <span class="grey"> , </span> <br> <span class="white" style="margin-left: 40px;">quickLearner: </span> <span class="orange"> true</span> <span class="grey"> , </span> <br> <span class="white" style="margin-left: 40px;">problemSolver: </span> <span class="orange"> true</span> <span class="grey"> , </span> <br> <span class="green" style="color: #4ADE80; margin-left: 40px;" >hireable: </span> <span class="orange"> function </span> <span class="grey"> () { </span> <br> <span class="orange" style="margin-left: 70px;">return </span> <span class="grey"> ( </span> <br> <span class="blue" style="margin-left: 100px;"> this.</span> <span class="white">hardWrorker </span> <span class="yellow">&&</span> <br> <span class="blue" style="margin-left: 100px;"> this.</span> <span class="white">problemSolwer </span> <span class="yellow">&&</span> <br> <span class="blue" style="margin-left: 100px;"> this.</span> <span class="white">skills.length </span> <span class="yellow"> >= </span> <span class="orange">5</span> <br> <span class="grey" style="margin-left: 70px;">) ;</span> <br> <span class="grey" style="margin-left: 40px;">} ;</span> <br> <span class="grey">};</span></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="gradient-top-border"></div>
+                        <div class="colorful-dots">
+                            <div class="pink-dot"></div>
+                            <div class="orange-dot"></div>
+                            <div class="grey-dot"></div>
+                        </div>
+                        <div class="card-text">
+                            <p><span class="const" style="color: rgb(236 72 153);">const</span> <span class="white">coder</span> <span class="equal" style="color: rgb(236 72 153);"> =</span> <span class="grey"> { </span> <br> <span class="white" style="margin-left: 40px;">name:</span> <span class="grey" >'</span> <span class="yellow"> Leyli</span> <span class="grey">' ,</span> <br> <span class="white" style="margin-left: 40px;">skills:</span> <span class="grey">[ '</span> <span class="yellow">React</span> <span class="grey">' , '</span> <span class="yellow">NextJS</span> <span class="grey">' , '</span> <span class="yellow">Redux</span> <span class="grey">' , '</span> <span class="yellow">Express</span> <span class="grey">' , '</span> <span class="yellow">NestJS</span> <span class="grey">' ,</span> <br> <span class="grey" style="margin-left: 40px;">'</span> <span class="yellow">MySql</span> <span class="grey">' , '</span> <span class="yellow">MongoDB</span> <span class="grey">' , '</span> <span class="yellow">Docker</span> <span class="grey">' , '</span> <span class="yellow">AWS</span> <span class="grey">' ] ,</span> <br> <span class="white" style="margin-left: 40px;">hardWorker: </span> <span class="orange"> true</span> <span class="grey"> , </span> <br> <span class="white" style="margin-left: 40px;">quickLearner: </span> <span class="orange"> true</span> <span class="grey"> , </span> <br> <span class="white" style="margin-left: 40px;">problemSolver: </span> <span class="orange"> true</span> <span class="grey"> , </span> <br> <span class="green" style="color: #4ADE80; margin-left: 40px;" >hireable: </span> <span class="orange"> function </span> <span class="grey"> () { </span> <br> <span class="orange" style="margin-left: 70px;">return </span> <span class="grey"> ( </span> <br> <span class="blue" style="margin-left: 100px;"> this.</span> <span class="white">hardWrorker </span> <span class="yellow">&&</span> <br> <span class="blue" style="margin-left: 100px;"> this.</span> <span class="white">problemSolwer </span> <span class="yellow">&&</span> <br> <span class="blue" style="margin-left: 100px;"> this.</span> <span class="white">skills.length </span> <span class="yellow"> >= </span> <span class="orange">5</span> <br> <span class="grey" style="margin-left: 70px;">) ;</span> <br> <span class="grey" style="margin-left: 40px;">} ;</span> <br> <span class="grey">};</span></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="gradient-top-border"></div>
+                        <div class="colorful-dots">
+                            <div class="pink-dot"></div>
+                            <div class="orange-dot"></div>
+                            <div class="grey-dot"></div>
+                        </div>
+                        <div class="card-text">
+                            <p><span class="const" style="color: rgb(236 72 153);">const</span> <span class="white">coder</span> <span class="equal" style="color: rgb(236 72 153);"> =</span> <span class="grey"> { </span> <br> <span class="white" style="margin-left: 40px;">name:</span> <span class="grey" >'</span> <span class="yellow"> Leyli</span> <span class="grey">' ,</span> <br> <span class="white" style="margin-left: 40px;">skills:</span> <span class="grey">[ '</span> <span class="yellow">React</span> <span class="grey">' , '</span> <span class="yellow">NextJS</span> <span class="grey">' , '</span> <span class="yellow">Redux</span> <span class="grey">' , '</span> <span class="yellow">Express</span> <span class="grey">' , '</span> <span class="yellow">NestJS</span> <span class="grey">' ,</span> <br> <span class="grey" style="margin-left: 40px;">'</span> <span class="yellow">MySql</span> <span class="grey">' , '</span> <span class="yellow">MongoDB</span> <span class="grey">' , '</span> <span class="yellow">Docker</span> <span class="grey">' , '</span> <span class="yellow">AWS</span> <span class="grey">' ] ,</span> <br> <span class="white" style="margin-left: 40px;">hardWorker: </span> <span class="orange"> true</span> <span class="grey"> , </span> <br> <span class="white" style="margin-left: 40px;">quickLearner: </span> <span class="orange"> true</span> <span class="grey"> , </span> <br> <span class="white" style="margin-left: 40px;">problemSolver: </span> <span class="orange"> true</span> <span class="grey"> , </span> <br> <span class="green" style="color: #4ADE80; margin-left: 40px;" >hireable: </span> <span class="orange"> function </span> <span class="grey"> () { </span> <br> <span class="orange" style="margin-left: 70px;">return </span> <span class="grey"> ( </span> <br> <span class="blue" style="margin-left: 100px;"> this.</span> <span class="white">hardWrorker </span> <span class="yellow">&&</span> <br> <span class="blue" style="margin-left: 100px;"> this.</span> <span class="white">problemSolwer </span> <span class="yellow">&&</span> <br> <span class="blue" style="margin-left: 100px;"> this.</span> <span class="white">skills.length </span> <span class="yellow"> >= </span> <span class="orange">5</span> <br> <span class="grey" style="margin-left: 70px;">) ;</span> <br> <span class="grey" style="margin-left: 40px;">} ;</span> <br> <span class="grey">};</span></p>
+                        </div>
                     </div>
                 </div>
             </div>
