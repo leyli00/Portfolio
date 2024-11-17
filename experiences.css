@@ -1,7 +1,5 @@
 .experiences{
-    margin-top: 48px;
     margin-bottom: 48px;
-    border-top: 1px solid rgba(37, 33, 59, 1);
     background: linear-gradient(190deg,rgba(0, 0, 0, 0) 10%, rgb(15, 7, 43) 50%, rgba(0, 0, 0, 0) 100%);
 }
 .center-containers{
@@ -13,7 +11,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 32px;
+    /* margin-top: 32px; */
     margin-bottom: 32px;
     padding-top: 20px;
     padding-bottom: 20px;
