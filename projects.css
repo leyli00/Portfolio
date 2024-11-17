@@ -35,11 +35,34 @@
     position: relative;
     height: 650px;
     overflow-y: auto;
-    border: 1px solid green;
+    /* border: 1px solid green; */
 }
 .card{
     position: sticky;
     top: 0;
     box-shadow: 0 -5px 10px black,
         0 5px 10px black;
+}
+.card:nth-child(2){
+    top: 54px;
+}
+.card:nth-child(3){
+    top: 108px;
+}
+.card:nth-child(4){
+    top: 162px;
+}
+::-webkit-scrollbar{
+    width: 0;
+}
+
+.sticky-card-header{
+    display: flex;
+    justify-content: center;
+    margin-right: 50px;
+    color: #16F2B3;
+    font-size: 20px;
+    line-height: 28px;
+    width: 538px;
+
 }

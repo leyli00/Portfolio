@@ -11,6 +11,7 @@
 }
 .colorful-dots{
     display: flex;
+    align-items: center;
     gap: 8px;
     padding: 20px 32px;
     border-bottom: 2px solid #312E81;
