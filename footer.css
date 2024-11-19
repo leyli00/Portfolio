@@ -1,0 +1,30 @@
+.footer{
+    height: 105px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-center{
+    display: flex;
+    gap: 1144px;
+}
+.footer-center-left{
+    display: flex;
+    align-items: center;
+    color: red;
+    font-size: 14px;
+    line-height: 20px;
+}
+.arrow-up i{
+    color: white;
+    display: flex;
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    background: linear-gradient(90deg, rgba(236, 72, 153, 1) 0%, rgba(124, 58, 237 ,1) 100%);
+    justify-content: center;
+    align-items: center;
+}
+.arrow-up{
+    background: transparent;
+}
